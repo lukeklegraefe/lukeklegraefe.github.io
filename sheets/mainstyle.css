@@ -1,0 +1,52 @@
+head{
+    background: url(../img/spikes.png);
+}
+
+h1{
+    color:rgb(73, 107, 87);
+    text-align: center;
+}
+h5{
+    color:rgb(73, 107, 87);
+    text-align: center;
+}
+body{
+    background: url(../img/beige-tiles.png);
+}
+
+#header ul {
+    color:rgb(73, 107, 87);
+    background: url(../img/spikes.png);
+}
+
+#links ul {
+    color:rgb(73, 107, 87);
+    background: url(../img/spikes.png);
+    text-align: center;
+}
+
+#links a {
+    padding: 10px 30px;
+    display: inline-block;
+    
+}
+
+#mainArea p {
+    color:rgb(73, 107, 87);
+    background: url(../img/spikes.png);
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 1000px;
+    text-indent: 40px;
+    line-height: 50px;
+}
+
+a:visited{
+    text-decoration: none;
+    color:rgb(73, 107, 87);
+}
+
+a:hover{
+    text-decoration: none;
+    color:rgb(58, 78, 66);
+}
