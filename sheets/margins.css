@@ -1,0 +1,49 @@
+.mainArea article{
+    width: 1000px;
+    height: 1200px;
+    max-width: 1000px;
+    max-height: 1200px;
+    margin:auto;
+}
+
+.column{
+    float: left;
+    padding-left: 100px;
+    padding-top: 50px;
+}
+
+.column h2{
+    width: 400px;
+    padding-bottom: 50px;
+    padding-left: 70px;
+}
+
+#col .skills{
+    text-align: center;
+}
+
+.column h4{
+    text-align: center;
+    width: 400px;
+    padding-bottom: 50px;
+    padding-left: 70px;
+}
+
+.column p{
+    text-align: center;
+    width: 400px;
+    padding-bottom: 50px;
+    padding-left: 70px;
+}
+
+.row{
+    padding-bottom: 600px;
+}
+
+.left{
+    width: 20%;
+}
+
+.right{
+    width: 30%;
+}

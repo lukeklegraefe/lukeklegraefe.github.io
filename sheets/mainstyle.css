@@ -9,6 +9,7 @@ h1{
     color:rgb(73, 107, 87);
     text-align: center;
 }
+
 h5{
     margin-left: 100px;
     margin-right: 100px;
@@ -16,6 +17,7 @@ h5{
     color:rgb(73, 107, 87);
     text-align: center;
 }
+
 body{
     background: url(../img/beige-tiles.png);
 }
@@ -28,6 +30,7 @@ body{
 
 #links ul {
     margin-top: 20px;
+    margin-bottom: 40px;
     color:rgb(73, 107, 87);
     background: url(../img/spikes.png);
     text-align: center;
@@ -39,27 +42,25 @@ body{
     display: inline-block;
 }
 
-#mainArea p {
+#mainArea{
+    position:relative;
+}
+
+.mainArea article{
     color:rgb(73, 107, 87);
     background: url(../img/spikes.png);
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-top: 50px;
-    height: 1000px;
-    text-indent: 40px;
-    line-height: 50px;
 }
 
 #mainArea img {
-    margin-top: 50px;
-    margin-left: 40px;
+    position:absolute;
     border: 4px solid;
 }
 
 #mainArea span {
+    text-anchor: middle;
     margin-top: 60px;
     position: relative;
-    left: 72px;
+    left: 110px;
     top: 50px;
     font-size: 25px;
 }
