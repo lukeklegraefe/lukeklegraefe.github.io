@@ -18,6 +18,12 @@
     padding-left: 70px;
 }
 
+#left .title{
+    width: 190px;
+    padding-left: 10px;
+    text-align: center;
+}
+
 #col .skills{
     text-align: center;
 }

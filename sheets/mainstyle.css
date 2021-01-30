@@ -2,11 +2,21 @@ head{
     background: url(../img/spikes.png);
 }
 
+/* not sure if this will work for mobile devices */
+
+@media only screen and (min-width: 541px) {
+    .gap{display:none;}
+}
+    
+@media only screen and (max-width: 540px) {
+    .gap{clear:both;display:block;}
+}
+
 h1{
     margin-left: 100px;
     margin-right: 100px;
     margin-top: 20px;
-    color:rgb(73, 107, 87);
+    color:rgb(61, 109, 83);
     text-align: center;
 }
 
@@ -47,11 +57,16 @@ body{
 }
 
 .mainArea article{
-    color:rgb(73, 107, 87);
+    color:rgb(74, 79, 104);
     background: url(../img/spikes.png);
 }
 
+#mainArea h2{
+    color:rgb(61, 109, 83);
+}
+
 #mainArea img {
+    color:rgb(74, 79, 104);
     position:absolute;
     border: 4px solid;
 }
@@ -73,4 +88,11 @@ a:visited{
 a:hover{
     text-decoration: none;
     color:rgb(58, 78, 66);
+}
+
+footer{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color:rgb(74, 79, 104);
 }
