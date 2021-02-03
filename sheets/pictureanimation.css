@@ -30,6 +30,10 @@
     animation: fade5 15s infinite;
 }
 
+.data{
+    width: 30%;
+}
+
 @keyframes fade1{
     0%{opacity: 1;}
     20%{opacity: 0;}
