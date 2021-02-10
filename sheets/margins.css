@@ -1,8 +1,8 @@
 .mainArea article{
     width: 1000px;
-    height: 1200px;
+    height: 1650px;
     max-width: 1000px;
-    max-height: 1200px;
+    max-height: 1650px;
     margin:auto;
 }
 
@@ -44,6 +44,10 @@
 
 .row{
     padding-bottom: 600px;
+}
+
+.row-middle{
+    padding-bottom: 500px;
 }
 
 .left{
