@@ -24,6 +24,12 @@
     text-align: center;
 }
 
+#left .title2{
+    width: 240px;
+    padding-left: 10px;
+    text-align: center;
+}
+
 #col .skills{
     text-align: center;
 }
@@ -48,6 +54,11 @@
 
 .row-middle{
     padding-bottom: 500px;
+}
+
+.row-middle h2{
+    width: 200x;
+
 }
 
 .left{
