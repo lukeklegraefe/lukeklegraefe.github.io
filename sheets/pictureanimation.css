@@ -9,6 +9,7 @@
     position: absolute;
     width: 200px;
     height: 413px;
+    margin-left: 20px;
 }
 .gulliver{
     animation: fade1 15s infinite;

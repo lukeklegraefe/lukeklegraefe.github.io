@@ -18,9 +18,13 @@
     padding-left: 70px;
 }
 
+#left img{
+    align-self: center;
+}
+
 #left .title{
     width: 190px;
-    padding-left: 10px;
+    padding-left: 25px;
     text-align: center;
 }
 
